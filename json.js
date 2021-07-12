@@ -1,5 +1,5 @@
 $().ready(function(){
-    $.getJSON( "/data.json", function( data ) {
+    $.getJSON( "/lovely/data.json", function( data ) {
     console.log(data);
     $("#text").html(data["text"]);
   });
